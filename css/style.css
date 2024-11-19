@@ -170,6 +170,13 @@ hr {
 		align-items: center;
 	}
 
+	/* Two-column layout for main content and sidebar */
+	.container {
+		display: flex;
+		flex-direction: row; /* Arrange items side by side */
+		gap: 20px; /* Adds spacing between columns */
+	}
+
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
